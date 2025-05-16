@@ -1,0 +1,92 @@
+.card {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(255, 94, 0, 0.2);
+    transform: none !important;
+    box-shadow: 0 0 15px rgba(121, 40, 202, 0.2) !important;
+}
+
+.card:hover {
+    transform: none !important;
+    box-shadow: 0 0 15px rgba(121, 40, 202, 0.2) !important;
+}
+
+.card-title {
+    color: #ff5e00;
+    text-shadow: 0 0 10px rgba(255, 94, 0, 0.3);
+}
+
+.card-text {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.page-title {
+    color: #ff5e00;
+    text-shadow: 0 0 15px rgba(255, 94, 0, 0.4);
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin-bottom: 50px;
+}
+
+.contact-info p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    color: #ff5e00;
+    margin-right: 10px;
+}
+
+.form-control {
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(255, 94, 0, 0.2);
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-color: #ff5e00;
+    box-shadow: 0 0 10px rgba(255, 94, 0, 0.3);
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #ff5e00;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ff7b33;
+    box-shadow: 0 0 15px rgba(255, 94, 0, 0.4);
+}
+
+.modal-content {
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 1px solid rgba(255, 94, 0, 0.2);
+    color: #ffffff;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 94, 0, 0.2);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255, 94, 0, 0.2);
+}
+
+.btn-close {
+    filter: invert(1);
+} 
